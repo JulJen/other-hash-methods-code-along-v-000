@@ -19,7 +19,7 @@ def get_the_keys(groceries)
 # groceries.key
     end
   end
-  puts "#{key}"
+  # puts "#{key}"
   # dairy: ["milk", "yogurt", "cheese"],
   # vegetable: ["carrots", "broccoli", "cucumbers"],
   # meat: ["chicken", "steak", "salmon"],
