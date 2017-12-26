@@ -10,10 +10,10 @@ require 'pry'
 
 def get_the_keys(groceries)
   groceries.each do |item, item_details_hash|
-    item_details_hash.each do |keys, data|
-      if key == :favorite_ice_cream_flavors
+    item_details_hash.each do |key, data|
+      key.each do |key, data|
   #       data.delete_if {|ice_cream| ice_cream == "strawberry"}
-  #     end
+      end
 # groceries.key
     end
   end
