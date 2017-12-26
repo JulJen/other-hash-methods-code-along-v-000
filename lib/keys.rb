@@ -15,16 +15,16 @@ def get_the_keys(groceries)
   #       data.delete_if {|ice_cream| ice_cream == "strawberry"}
   #     end
 # groceries.key
-    # end
+    end
   end
-
+  puts "#{key}"
   # dairy: ["milk", "yogurt", "cheese"],
   # vegetable: ["carrots", "broccoli", "cucumbers"],
   # meat: ["chicken", "steak", "salmon"],
   # grains: ["rice", "pasta"]
   #
 end
-puts "#{key}"
+
 
 # describe "#get_the_keys" do
 #   let :groceries do
