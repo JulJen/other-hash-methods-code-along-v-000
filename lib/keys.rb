@@ -14,7 +14,7 @@ def get_the_keys(groceries)
   #     if attribute == :favorite_ice_cream_flavors
   #       data.delete_if {|ice_cream| ice_cream == "strawberry"}
   #     end
-      puts "#{attribute}"
+      puts groceries."#{attribute}"
     end
   end
 
