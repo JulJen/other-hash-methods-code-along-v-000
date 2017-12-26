@@ -12,8 +12,9 @@ def get_the_keys(groceries)
   groceries.each do |item, item_details_hash|
     # if attribute == :favorite_ice_cream_flavors
     # item.each do |key, data|
-    item_details_hash.each do |key, data|
-      if key != {}
+    item_details_hash.each do |attribute, data|
+      if attribute != {}
+        data.each do |key|
         puts "#{key}"
       end
     end
