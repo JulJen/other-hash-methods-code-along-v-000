@@ -16,8 +16,7 @@ def get_the_keys(groceries)
   #     end
     end
   end
-
-groceries
+puts "#{attribute}"
   # dairy: ["milk", "yogurt", "cheese"],
   # vegetable: ["carrots", "broccoli", "cucumbers"],
   # meat: ["chicken", "steak", "salmon"],
