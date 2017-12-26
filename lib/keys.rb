@@ -24,7 +24,7 @@ def get_the_keys(groceries)
   # grains: ["rice", "pasta"]
   #
 end
-
+puts "#{key}"
 
 # describe "#get_the_keys" do
 #   let :groceries do
