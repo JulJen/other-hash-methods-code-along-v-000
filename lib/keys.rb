@@ -15,7 +15,7 @@ def get_the_keys(groceries)
   #       data.delete_if {|ice_cream| ice_cream == "strawberry"}
   #     end
 # groceries.key
-    end
+    # end
   end
 
   # dairy: ["milk", "yogurt", "cheese"],
